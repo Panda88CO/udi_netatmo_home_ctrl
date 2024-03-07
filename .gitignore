@@ -1,0 +1,11 @@
+
+TestStuff/NetatmoInit.py
+TestStuff/NetatmoCloudApi.py
+Original Node server/testing.py
+token.json
+client_ID.txt
+client_SEC.txt
+*.pyc
+tfiles.py
+TestStuff/oauthDev.py
+TestStuff/oauthTest.py

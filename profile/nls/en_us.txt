@@ -1,0 +1,94 @@
+# controller
+ND-controller-NAME = Netatmo System
+ND-controller-ICON = Weather
+ST-ctl-ST-NAME = NodeServer Online
+
+ND-mainunit-NAME = Main Weather Station
+ND-mainunit-ICON = Weather
+ST-MAIN-ST-NAME = Connected
+ST-MAIN-GV0-NAME = Temperature
+ST-MAIN-GV1-NAME = CO2
+ST-MAIN-GV2-NAME = Humidity
+ST-MAIN-GV3-NAME = Noise
+ST-MAIN-GV4-NAME = Pressure
+ST-MAIN-GV5-NAME = Absolute Pressure
+ST-MAIN-GV6-NAME = Min Temperature
+ST-MAIN-GV7-NAME = Max Temperature
+ST-MAIN-GV8-NAME = Temperature Trend
+# ST-MAIN-GV9-NAME = Pressure Trend
+ST-MAIN-GV10-NAME = Time since measurement
+ST-MAIN-GV11-NAME = Wi-Fi Status
+CMD-MAIN-UPDATE-NAME = Force Update 
+
+ND-indoor-NAME = Indoor Module
+ND-indoor-ICON = Weather
+ST-INDM-ST-NAME = Connected
+ST-INDM-GV0-NAME = Temperature
+ST-INDM-GV1-NAME = CO2
+ST-INDM-GV2-NAME = Humidity
+ST-INDM-GV3-NAME = Min Temperature
+ST-INDM-GV4-NAME = Max Temperature
+ST-INDM-GV5-NAME = Temperature Trend
+ST-INDM-GV6-NAME = Time since measurement
+ST-INDM-GV7-NAME = Battery
+ST-INDM-GV8-NAME = RF Status
+CMD-INDM-UPDATE-NAME = Force Update 
+
+ND-outdoor-NAME = Outdoor Module
+ND-outdoor-ICON = Weather
+ST-OUTM-ST-NAME = Connected
+ST-OUTM-GV0-NAME = Temperature
+ST-OUTM-GV1-NAME = Humidity
+ST-OUTM-GV2-NAME = Min Temperature
+ST-OUTM-GV3-NAME = Max Temperature
+ST-OUTM-GV4-NAME = Temperature Trend
+ST-OUTM-GV5-NAME = Time since measurement
+ST-OUTM-GV6-NAME = Battery
+ST-OUTM-GV7-NAME = RF Status
+CMD-OUTM-UPDATE-NAME = Force Update 
+
+ND-wind-NAME = Wind Module
+ND-wind-ICON = Weather
+ST-WINM-ST-NAME = Connected
+ST-WINM-GV0-NAME = Wind Strength
+ST-WINM-GV1-NAME = Wind Angle
+ST-WINM-GV2-NAME = Gust Strength
+ST-WINM-GV3-NAME = Gust Angle
+ST-WINM-GV4-NAME = Max Wind Strength
+ST-WINM-GV5-NAME = Max Wind Angle
+ST-WINM-GV6-NAME = Time since measurement
+ST-WINM-GV7-NAME = Battery
+ST-WINM-GV8-NAME = RF Status
+CMD-WINM-UPDATE-NAME = Force Update 
+
+ND-rain-NAME = Rain Module
+ND-rain-ICON = Weather
+ST-RAIM-ST-NAME = Connected
+ST-RAIM-GV0-NAME = Rain
+ST-RAIM-GV1-NAME = Sum Rain 1h
+ST-RAIM-GV2-NAME = Sum Rain 24h
+ST-RAIM-GV3-NAME = Time since measurement
+ST-RAIM-GV4-NAME = Battery
+ST-RAIM-GV5-NAME = RF Status
+CMD-RAIM-UPDATE-NAME = Force Update 
+
+EN_TREND-0 = Stable
+EN_TREND-1 = Up
+EN_TREND-2 = Down
+EN_TREND-99 = Unknown
+
+error-0 = No reading
+error-99 = Unknown
+
+battery-0 = Maximum
+battery-1 = Full
+battery-2 = High
+battery-3 = Medium
+battery-4 = Low
+battery-5 = Very Low
+battery-99 = Unknown
+
+rf_status-0 = Strong
+rf_status-1 = Medium
+rf_status-2 = Low
+rf_status-99 = Unknown
